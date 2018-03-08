@@ -5,7 +5,6 @@ local ltn12 = require("ltn12")
 -- Requests information about a document, without downloading it.
 -- Useful, for example, if you want to display a download gauge and need
 -- to know the size of the document in advance
---local res_body = "\'{\"ip\":\"115.159.156.234\"}\'"
 local res_body = [[ {"ip":"1.1.1.1"} ]]
 local response_body = { }
 
