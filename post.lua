@@ -11,7 +11,7 @@ local response_body = { }
 
 local res, code, response_headers = http.request {
     method = "POST",
-    url="http://10.0.0.125:8889/ald_system/ips/get_ip_info",
+    url="http://10.0.0.1:8888/ips/get_ip_info",
     headers =  
       {  
           ["Content-Type"] = "application/json";  
